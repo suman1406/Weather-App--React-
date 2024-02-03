@@ -1,0 +1,37 @@
+.InfoBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.CardMedia {
+    object-fit: cover;
+}
+
+.CardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Card {
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gutterBottom {
+    margin-bottom: 10px;
+}
+
+.body2 {
+    text-align: center;
+    color: #555;
+}
+
+/* Add more styles as needed */
